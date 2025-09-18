@@ -298,10 +298,10 @@ function initWhyItMattersToggle() {
         
         if (content.is(':visible')) {
             content.slideUp(300);
-            toggle.text('+ADD WHY IT MATTERS');
+            toggle.text('AND WHY IT MATTERS');
         } else {
             content.slideDown(300);
-            toggle.text('-HIDE WHY IT MATTERS');
+            toggle.text('HIDE WHY IT MATTERS');
         }
     });
 }
