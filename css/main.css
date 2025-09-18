@@ -147,6 +147,17 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding: 0 2rem;
+}
+
 /* Skip Link */
 .skip-link {
   position: absolute;
@@ -368,9 +379,9 @@ body {
 }
 
 .hero-title {
-  font-size: var(--text-8xl);
-  font-weight: var(--font-black);
-  line-height: var(--leading-none);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 0.9;
   color: var(--color-black);
   margin: 0;
   text-transform: lowercase;
@@ -414,16 +425,16 @@ body {
 
 .mission-section {
   background-color: var(--color-lime);
-  padding: var(--space-20) 0;
+  padding: 4rem 0;
 }
 
 .mission-text {
-  font-size: var(--text-3xl);
-  font-weight: var(--font-bold);
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--color-black);
   margin: 0;
   text-align: center;
-  line-height: var(--leading-tight);
+  line-height: 1.2;
 }
 
 /* ========================================
@@ -431,7 +442,7 @@ body {
    ======================================== */
 
 .intro-section {
-  padding: var(--space-20) 0;
+  padding: 5rem 0;
   background-color: var(--color-bg);
 }
 
@@ -447,17 +458,18 @@ body {
    ======================================== */
 
 .what-we-do-section {
-  padding: var(--space-20) 0;
+  padding: 5rem 0;
   background-color: var(--color-lime);
 }
 
 .section-title {
-  font-size: var(--text-6xl);
-  font-weight: var(--font-black);
+  font-size: 4rem;
+  font-weight: 900;
   color: var(--color-black);
-  margin-bottom: var(--space-8);
+  margin-bottom: 2rem;
   text-transform: lowercase;
   letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
 .section-text {
@@ -685,12 +697,13 @@ body {
 }
 
 .contact-title {
-  font-size: var(--text-6xl);
-  font-weight: var(--font-black);
+  font-size: 4rem;
+  font-weight: 900;
   color: var(--color-black);
-  margin-bottom: var(--space-6);
+  margin-bottom: 1.5rem;
   text-transform: lowercase;
   letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
 .contact-text {
